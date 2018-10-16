@@ -68,12 +68,6 @@ public class WatsonLogic : MonoBehaviour
         animator = gameObject.GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     //***********************
     //Watson Assistant Below
     //***********************
@@ -282,7 +276,6 @@ public class WatsonLogic : MonoBehaviour
                 _speechToText.EnableTimestamps = false;
                 _speechToText.SilenceThreshold = 0.03f;
                 _speechToText.MaxAlternatives = 1;
-                //_speechToText.EnableContinousRecognition = true;
                 _speechToText.EnableInterimResults = true;
                 _speechToText.OnError = OnError;
                 _speechToText.StartListening(OnRecognize);
