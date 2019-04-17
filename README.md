@@ -1,3 +1,5 @@
+**Not tested for Watson SDK for Unity version 3+, please use 2.x until this content is updated.**
+
 # Unity-ARKit-Watson
 A complete Unity project using Watson SDK and ARKit with voice activated animations.
 
